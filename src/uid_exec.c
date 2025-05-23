@@ -9,7 +9,7 @@
 #include <linux/version.h>
 
 
-#define MAX_ALLOWED_UIDS 16 // только 16 юзеров могут запускать программы
+#define MAX_ALLOWED_UIDS 16
 
 static kuid_t allowed_user_ids[MAX_ALLOWED_UIDS]; // юзеры которым можно выполнять программы
 static int allowed_uid_count = 0; 
