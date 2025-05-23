@@ -8,6 +8,7 @@
 #include <linux/cred.h>
 #include <linux/version.h>
 
+
 #define MAX_ALLOWED_UIDS 16 // только 16 юзеров могут запускать программы
 
 static kuid_t allowed_user_ids[MAX_ALLOWED_UIDS]; // юзеры которым можно выполнять программы
