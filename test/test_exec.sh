@@ -2,7 +2,7 @@
 set -e
 
 echo "Устанавливаем модуль..."
-sudo insmod src/uid_exec.ko
+sudo insmod /home/sofiia/Desktop/acos/acos_morozovasophiia/uid_exec.ko
 
 echo "Разрешим юзеру 666 для наглядности"
 echo "666" | sudo tee /proc/exec_allow
