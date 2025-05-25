@@ -96,5 +96,9 @@ static void __exit module_stop(void) { //выгружаем модуль
     printk(KERN_INFO "[uid_exec] Модуль execve выгружен\n");
 }
 
+
+MODULE_LICENSE("GPL")
+
 module_init(module_start);
 module_exit(module_stop);
+
